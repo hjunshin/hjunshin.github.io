@@ -1,0 +1,50 @@
+/* ==========================================================================
+   LOGO
+   ========================================================================== */
+[class^=logo-text]{
+  fill: #09405B;
+}
+
+.logo-text-t,
+.logo-text-e,
+.logo-text-c {
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-name: tec;
+}
+
+.logo-text-j,
+.logo-text-u,
+.logo-text-n {
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-name: jun;
+}
+
+@keyframes tec {
+  0% {
+    opacity: .5;
+  }
+
+  50%{
+    opacity: 1;
+  }
+
+  100% {
+    opacity: .5;
+  }
+}
+
+@keyframes jun {
+  0% {
+    opacity: 1;
+  }
+
+  50%{
+    opacity: .5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
