@@ -312,6 +312,7 @@ body:hover .visually-hidden button {
    ========================================================================== */
 
 .navicon {
+  display: block;
   position: relative;
   width: $navicon-width;
   height: $navicon-height;
